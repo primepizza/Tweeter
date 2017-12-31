@@ -1,0 +1,13 @@
+body
+{
+  min-width: 250px;
+  margin-bottom: 30px;
+  font-family: Segoe UI, Arial, sans-serif;
+  font-size: 13px;
+  color: #545454;
+  background-color: #f8f0e3;
+  background-image: url(background.png);
+}
+#ERLOG{
+ color:blue;
+}

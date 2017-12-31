@@ -1,0 +1,19 @@
+{
+  "name": "Tweeter",
+  "description": "Tweet anytime,anywhere,anything",
+  "version": "0.9.8",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "foreground/popup.html"
+  },
+  "options_page": "foreground/setting.html",
+  "icons": {
+    "48": "foreground/img/48.png"
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "storage",
+    "https://api.twitter.com/"
+  ]
+}
